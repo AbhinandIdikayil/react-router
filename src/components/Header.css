@@ -1,0 +1,21 @@
+html,body {
+    height: 100%;
+    width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(62, 28, 116);
+}
+.link{
+    padding: 0px 20px;
+}
+.link.active{
+    color: rgba(85, 135, 243, 0.884);
+}

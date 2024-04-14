@@ -1,0 +1,71 @@
+
+[
+    {
+        "id":1,
+        "name":"John", 
+        "age":30, 
+        "class":6,
+        "address":"1270 Diamond Springs Rd #102",
+        "marks" : {
+            "Maths":[23,65,43],
+            "physics":[12,87,45],
+            "chemistry":[34,45,32]
+        },
+        "sports":{
+            "highjump":1,
+            "longjump":-1
+        },
+        "remarks":["Notes not submitted"]
+    },
+    {
+        "id":2,
+        "name":"Swathi", 
+        "age":20, 
+        "class":6,
+        "address":"1270 Diamond Springs Rd #102",
+        "marks" : {
+            "Maths":[23,65,43],
+            "physics":[12,27,45],
+            "chemistry":[34,45,32]
+        }, 
+        "sports":{
+            "highjump":1,
+            "longjump":-1
+        },
+        "remarks":["Notes not submitted"]
+    },
+    {
+        "id":3,
+        "name":"Joseph", 
+        "age":24, 
+        "class":7,
+        "address":"1270 Diamond Springs Rd #102",
+        "marks" : {
+            "Maths":[23,65,41],
+            "physics":[12,67,45],
+            "chemistry":[34,35,32]
+        },
+        "sports":{
+            "highjump":-1,
+            "longjump":1
+        },
+        "remarks":["Notes not submitted"]
+    },
+    {
+        "id":4,
+        "name":"John", 
+        "age":54, 
+        "class":7,
+        "address":"1270 Diamond Springs Rd #102",
+        "marks" : {
+            "Maths":[23,65,43],
+            "physics":[12,78,45],
+            "chemistry":[54,45,32]
+        },
+        "sports":{
+            "highjump":-1,
+            "longjump":-1
+        },
+        "remarks":["Notes not submitted"]
+    }
+]
