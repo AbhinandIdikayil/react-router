@@ -10,7 +10,7 @@ import NotFound from './pages/NotFound'
 import Remarks from './components/Remarks'
 import Marks from './components/Marks'
 import Sports from './components/Sports'
-// import Layout from './Layout'
+import Layout from './Layout'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,7 +19,7 @@ function App() {
     <BrowserRouter>
       
       <Routes  >
-        <Route path='/' element={<Header />} >
+        <Route path='/' element={<Layout />} >
           <Route path='' element={<Home /> } />
           <Route path='/home' element={<Home />} />
           <Route path='usage' element={<Usage />} />

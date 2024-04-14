@@ -12,7 +12,7 @@ function Header() {
         <NavLink className='link' to='contact'>Contact</NavLink>
         <NavLink className='link' to='about'>About</NavLink>
       </nav>
-      <Outlet />
+      {/* <Outlet /> */}
     </>
   )
 }
