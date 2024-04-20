@@ -16,7 +16,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='react-router'>
       
       <Routes  >
         <Route path='/' element={<Layout />} >
