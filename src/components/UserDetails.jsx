@@ -15,7 +15,7 @@ function UserDetails() {
 
     useEffect(() => {
         if (!user) {
-            axios('/data.json')
+            axios('data.json')
                 .then((res) => {
                     const item = res.data.find((userDatas) => userDatas.id === parseInt(userid))
                     setUser(item)
